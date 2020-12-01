@@ -1,5 +1,5 @@
 SHELL = /bin/bash
-CC = clang++-10
+CC ?= clang++-10
 
 VPATH = src,out
 
