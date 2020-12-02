@@ -1,11 +1,9 @@
 #include "MainWindow.hpp"
 
-namespace Operator {
-    MainWindow::MainWindow () : youtubeBox () {
-        add (youtubeBox);
+namespace Operator::UI {
+    MainWindow::MainWindow () : mainBox () {
+        add (mainBox);
         show_all_children ();
     };
-    MainWindow::~MainWindow () {
-
-    };
+    MainWindow::~MainWindow () {};
 };

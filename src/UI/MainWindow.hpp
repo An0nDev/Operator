@@ -1,12 +1,12 @@
 #pragma once
 
-#include "YouTube/YouTubeBox.hpp"
+#include "MainBox.hpp"
 
 #include <gtkmm/window.h>
 
-namespace Operator {
+namespace Operator::UI {
     class MainWindow : public Gtk::Window {
-        YouTubeBox youtubeBox;
+        MainBox mainBox;
     public:
         MainWindow ();
         virtual ~MainWindow ();
